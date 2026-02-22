@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jar tf:*)",
+      "Bash(mvn clean install:*)",
+      "Bash(javap:*)",
+      "Bash(mvn clean compile:*)"
+    ]
+  }
+}

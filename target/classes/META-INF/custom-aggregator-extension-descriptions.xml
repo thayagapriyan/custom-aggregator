@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extension-documentation>
+    <configs>
+        <config name="config">
+            <description><![CDATA[Default configuration]]></description>
+            <parameters>
+                <parameter name="configId">
+                    <description/>
+                </parameter>
+                <parameter name="httpRequesterConfig">
+                    <description/>
+                </parameter>
+                <parameter name="requestTimeoutSeconds">
+                    <description/>
+                </parameter>
+                <parameter name="name">
+                    <description><![CDATA[The identifier of this element used to reference it in other components]]></description>
+                </parameter>
+                <parameter name="expirationPolicy">
+                    <description><![CDATA[Configures the minimum amount of time that a dynamic configuration instance can remain idle before the runtime considers it eligible for expiration. This does not mean that the platform will expire the instance at the exact moment that it becomes eligible. The runtime will actually purge the instances when it sees it fit.]]></description>
+                </parameter>
+            </parameters>
+        </config>
+    </configs>
+    <connections/>
+    <extension name="Custom-aggregator">
+        <description/>
+        <parameters/>
+    </extension>
+    <operations>
+        <operation name="aggregateByGroup">
+            <description/>
+            <parameters>
+                <parameter name="groupId">
+                    <description/>
+                </parameter>
+                <parameter name="groupSize">
+                    <description/>
+                </parameter>
+                <parameter name="evictionTime">
+                    <description/>
+                </parameter>
+                <parameter name="evictionTimeUnit">
+                    <description/>
+                </parameter>
+                <parameter name="content">
+                    <description/>
+                </parameter>
+                <parameter name="config-ref">
+                    <description><![CDATA[The name of the configuration to be used to execute this component]]></description>
+                </parameter>
+                <parameter name="target">
+                    <description><![CDATA[The name of a variable on which the operation's output will be placed]]></description>
+                </parameter>
+                <parameter name="targetValue">
+                    <description><![CDATA[An expression that will be evaluated against the operation's output and the outcome of that expression will be stored in the target variable]]></description>
+                </parameter>
+                <parameter name="errorMappings">
+                    <description><![CDATA[Set of error mappings]]></description>
+                </parameter>
+            </parameters>
+        </operation>
+        <operation name="aggregateByTime">
+            <description/>
+            <parameters>
+                <parameter name="aggregatorName">
+                    <description/>
+                </parameter>
+                <parameter name="period">
+                    <description/>
+                </parameter>
+                <parameter name="periodUnit">
+                    <description/>
+                </parameter>
+                <parameter name="maxSize">
+                    <description/>
+                </parameter>
+                <parameter name="content">
+                    <description/>
+                </parameter>
+                <parameter name="config-ref">
+                    <description><![CDATA[The name of the configuration to be used to execute this component]]></description>
+                </parameter>
+                <parameter name="target">
+                    <description><![CDATA[The name of a variable on which the operation's output will be placed]]></description>
+                </parameter>
+                <parameter name="targetValue">
+                    <description><![CDATA[An expression that will be evaluated against the operation's output and the outcome of that expression will be stored in the target variable]]></description>
+                </parameter>
+                <parameter name="errorMappings">
+                    <description><![CDATA[Set of error mappings]]></description>
+                </parameter>
+            </parameters>
+        </operation>
+    </operations>
+    <sources/>
+    <types/>
+</extension-documentation>
