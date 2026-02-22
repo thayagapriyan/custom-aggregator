@@ -1,8 +1,0 @@
-com\priyan\router\internal\aggregator\IncrementalAggregationRoute.class
-com\priyan\router\internal\aggregator\TimeBasedAggregator.class
-com\priyan\router\internal\CustomaggregatorExtension.class
-com\priyan\router\internal\aggregator\GroupBasedAggregator.class
-com\priyan\router\internal\aggregator\AggregationAttributes.class
-META-INF\custom-aggregator-extension-descriptions.xml
-com\priyan\router\internal\CustomaggregatorConfiguration.class
-com\priyan\router\internal\aggregator\AggregationCompleteRoute.class
