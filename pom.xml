@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>be53b1bc-dcfe-4956-8984-bab672e25261</groupId>
+    <groupId>com.priyan.aggregator</groupId>
     <artifactId>custom-aggregator</artifactId>
     <version>1.0.1</version>
     <packaging>mule-extension</packaging>
